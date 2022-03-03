@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 project(world)
-set(CMAKE_CXX_VERSION 11)
+set(CMAKE_CXX_STANDARD 11)
 
 set(LIBRARY_OUTPUT_PATH ${CMAKE_SOURCE_DIR}/lib)
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_SOURCE_DIR}/bin)

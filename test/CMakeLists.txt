@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.7.1)
-
 project(hello-world)
+set(CMAKE_CXX_STANDARD 11)
 
 set(SOURCE_FILES main.c)
 
